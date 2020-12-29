@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: udagram-user-svc
   labels:
-    svc: udagram-user-api
+    svc: udagram-user
 spec:
   selector:
     app: udagram-user
